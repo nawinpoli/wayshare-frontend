@@ -242,7 +242,7 @@ function PostDetail() {
         {/* Description */}
         <section className="bg-white rounded-lg p-6 shadow mb-8">
           <h2 className="text-xl font-bold mb-4">รายละเอียดเพิ่มเติม</h2>
-          <p className="text-gray-700 text-sm">{post.description || "ไม่มีข้อมูลเพิ่มเติม"}</p>
+          <p className="text-gray-700 text-sm">{post.moreInfo || "ไม่มีข้อมูลเพิ่มเติม"}</p>
         </section>
 
         {/* Review Section */}

@@ -87,7 +87,7 @@ function CreatePost() {
           text: satisfaction,
           reviewsCount: Math.floor(Math.random() * 10) + 1
         },
-        description,
+        moreInfo: description, 
       };
 
       // ✅ ส่งข้อมูลไป Backend
