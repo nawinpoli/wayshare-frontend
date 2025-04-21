@@ -114,7 +114,7 @@ function LoginPage() {
         {/* Image Section */}
         <div className="hidden md:block md:w-1/2 bg-gray-200 relative">
           <img
-            src="/images/hotel.jpg"
+            src="/thailand-3708666_1280.jpg"
             alt="Hotel"
             className="w-full h-full object-cover rounded-l-none rounded-r-xl"
           />

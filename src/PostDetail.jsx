@@ -192,7 +192,7 @@ function PostDetail() {
               {post.origin} - {post.destination}
             </div>
             <div className="flex items-center gap-2">
-              <span className="text-green-600 font-bold">{post.rating.score}</span> {post.rating.text} ({post.rating.reviewsCount} reviews)
+              <span className="text-green-600 font-bold">{post.rating.score}</span> {post.rating.text} ({comments.length} reviews)
             </div>
           </div>
 

@@ -183,7 +183,7 @@ useEffect(() => {
                   <input
                     type="range"
                     min="0"
-                    max="1000"
+                    max="2000"
                     value={price}
                     onChange={(e) => setPrice(Number(e.target.value))}
                     className="w-full"
@@ -196,7 +196,7 @@ useEffect(() => {
                   <input
                     type="range"
                     min="0"
-                    max="120"
+                    max="360"
                     value={time}
                     onChange={(e) => setTime(Number(e.target.value))}
                     className="w-full"
@@ -226,7 +226,7 @@ useEffect(() => {
                 <div className="mb-6">
                   <label className="block font-semibold mb-2">ประเภทยานพาหนะ</label>
                   <div className="flex flex-col gap-2 text-sm">
-                    {["BTS", "MRT", "Airport Rail Link", "รถเมล์"].map((type) => (
+                    {["BTS", "MRT", "Airport Rail Link", "รถเมล์","รถไฟ"].map((type) => (
                       <label key={type} className="flex items-center gap-2">
                         <input
                           type="checkbox"

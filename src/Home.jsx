@@ -92,7 +92,7 @@ export default function HomePage() {
       <section className="pt-24 bg-gray-200 h-[600px] relative">
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url('/background-placeholder.jpg')` }}
+          style={{ backgroundImage: `url('/asia-3468649_1280.jpg')` }}
         ></div>
         <div className="absolute inset-0 bg-black opacity-40"></div>
         <div className="relative z-10 max-w-[1200px] mx-auto text-white px-6 pt-20">
@@ -178,9 +178,15 @@ export default function HomePage() {
           </div>
 
           <div className="md:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <div className="w-full h-40 bg-gray-200 rounded-lg"></div>
-            <div className="w-full h-40 bg-gray-200 rounded-lg"></div>
-            <div className="w-full h-40 bg-gray-200 rounded-lg"></div>
+            <div className="w-full h-40 bg-gray-200 rounded-lg">
+              <img src="/asia-1807558_1280.jpg" className="w-full h-full object-cover" />
+            </div>
+            <div className="w-full h-40 bg-gray-200 rounded-lg">
+              <img src="/asia-2179107_1280.jpg" className="w-full h-full object-cover" />
+            </div>
+            <div className="w-full h-40 bg-gray-200 rounded-lg">
+              <img src="/buddha-5082641_1280.jpg" className="w-full h-full object-cover" />
+            </div>
           </div>
         </div>
       </section>
