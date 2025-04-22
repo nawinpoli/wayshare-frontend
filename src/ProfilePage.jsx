@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { FaGlobe, FaBell, FaLock, FaGavel, FaUserCog, FaInfoCircle } from "react-icons/fa";
+import { FaGlobe, FaBell, FaLock, FaGavel, FaUserCog, FaInfoCircle, FaUser } from "react-icons/fa";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import LetterBox from "./components/LetterBox";

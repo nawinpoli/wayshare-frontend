@@ -42,7 +42,7 @@ function Header() {
         {/* Center logo */}
         <div className="absolute left-1/2 transform -translate-x-1/2" onClick={()=>{navigate(`/`);}}>
           <div className="flex items-center gap-2">
-            <img src="/logo-icon.png" alt="WayShare" className="h-6" />
+            
             <span className="text-xl font-bold text-gray-800">WayShare</span>
           </div>
         </div>
@@ -66,11 +66,15 @@ function Header() {
           >
             {/* Profile Button */}
             <div className="flex items-center gap-2">
-              <img
-                src={user?.profilePicture || "/profile.jpg"} // ถ้าไม่มีรูปในฐานข้อมูลให้ใช้รูป default
-                alt="User"
-                className="w-8 h-8 rounded-full object-cover"
-              />
+            {user?.profilePicture ? (
+    <img
+      src={user.profilePicture}
+      alt="User"
+      className="w-8 h-8 rounded-full object-cover"
+    />
+  ) : (
+    <FaUser className="w-8 h-8 text-gray-600" />
+  )}
               <span className="font-semibold text-gray-800">
                 {user ? `${user?.username}` : "Guest"}
               </span>
@@ -81,11 +85,15 @@ function Header() {
               <div className="absolute top-full right-0 w-64 bg-white rounded-xl shadow-xl p-4 z-50">
                 {/* Profile Info */}
                 <div className="flex items-center gap-4 mb-4">
-                  <img
-                    src={user?.profilePicture || "/profile.jpg"}
-                    alt="User"
-                    className="w-12 h-12 rounded-full object-cover"
-                  />
+                {user?.profilePicture ? (
+    <img
+      src={user.profilePicture}
+      alt="User"
+      className="w-8 h-8 rounded-full object-cover"
+    />
+  ) : (
+    <FaUser className="w-8 h-8 text-gray-600" />
+  )}
                   <div>
                     <div className="font-bold text-gray-800">{user ? `${user?.username}` : "Guest"}</div>
                     <div className="text-green-500 text-sm">Online</div>
