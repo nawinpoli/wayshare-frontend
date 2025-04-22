@@ -97,9 +97,13 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-black opacity-40"></div>
         <div className="relative z-10 max-w-[1200px] mx-auto text-white px-6 pt-20">
           <h1 className="text-4xl font-bold leading-tight">
-            Make your travel wishlist, we'll do the rest
+          ยินดีต้อนรับสู่
+          WayShare!
           </h1>
-          <p className="mt-4 text-lg">Special offers to suit your plan</p>
+          <p className="mt-4 text-lg">ค้นหาเส้นทางการเดินทางที่ดีที่สุด
+แชร์ประสบการณ์
+และช่วยกันเลือกทางเลือกที่เหมาะสมที่สุด
+สำหรับทุกคน</p>
         </div>
       </section>
 
