@@ -76,12 +76,12 @@ useEffect(() => {
     // กรองจาก origin/destination
     if (searchQuery.origin) {
       result = result.filter((post) =>
-        post.origin.toLowerCase().includes(searchQuery.origin.toLowerCase())
+        post.origin?.toLowerCase().includes(searchQuery.origin.toLowerCase())
       );
     }
     if (searchQuery.destination) {
       result = result.filter((post) =>
-        post.destination.toLowerCase().includes(searchQuery.destination.toLowerCase())
+        post.destination?.toLowerCase().includes(searchQuery.destination.toLowerCase())
       );
     }
 
