@@ -41,9 +41,9 @@ export default function SavePlaceCard({ post, onUnsave }) {
       
       {/* Image */} 
       <div className="relative w-full md:w-1/3 h-48 md:h-auto bg-gray-300">
-        <div className="absolute top-2 right-2 bg-white text-xs px-2 py-1 rounded-full shadow">
-          {post.images ? `${post.images} images` : 'No Image'}
-        </div>
+        
+          <img src={post.mainImage} alt={post.title} className="w-full h-full object-cover" />
+        
       </div>
 
       {/* Details */}
