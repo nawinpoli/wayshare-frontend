@@ -42,7 +42,7 @@ function Header() {
         {/* Center logo */}
         <div className="absolute left-1/2 transform -translate-x-1/2" onClick={()=>{navigate(`/`);}}>
           <div className="flex items-center gap-2">
-            <img src="/logo-icon.png" alt="WayShare" className="h-6" />
+            
             <span className="text-xl font-bold text-gray-800">WayShare</span>
           </div>
         </div>
